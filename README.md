@@ -34,3 +34,5 @@ git clone git@github.com:MichaelZLai/Whats-Hapn_n.git
 
 ## Technologies
 ![react](./images/react.png)
+![mapbox](./images/mapbox.png)
+![eventful](./images/eventful.png)
