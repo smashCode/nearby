@@ -8,6 +8,7 @@ Ever bored on a Monday...Tuesday....Wednesday.....or every day? What's Hapn'n ca
 
 ```
 git clone git@github.com:MichaelZLai/Whats-Hapn_n.git
+npm install
 
 ```
 

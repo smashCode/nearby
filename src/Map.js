@@ -16,11 +16,10 @@ class Map extends Component {
 
     return (
       <ReactMapboxGl
-      style='mapbox://styles/mapbox/streets-v9'
-      accessToken='pk.eyJ1Ijoia2ptYWhvbmV5IiwiYSI6ImNpeGNhZTBqdDAwOXkyemtsMnQ1bmc2dmQifQ.nUVp50Ae4EUgDqvvA_C0gA'
-      className = "map"
-      containerStyle = {containerStyle}
-      >
+        style='mapbox://styles/mapbox/streets-v9'
+        accessToken='pk.eyJ1Ijoia2ptYWhvbmV5IiwiYSI6ImNpeGNhZTBqdDAwOXkyemtsMnQ1bmc2dmQifQ.nUVp50Ae4EUgDqvvA_C0gA'
+        className = "map"
+        containerStyle = {containerStyle}>
       </ReactMapboxGl>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Icon } from 'semantic-ui-react'
-import Map from './Map'
+import { Button, Icon } from 'semantic-ui-react';
+import Map from './Map';
 
 class Landing extends Component {
 
@@ -9,7 +9,7 @@ class Landing extends Component {
     return (
       <div>
         <Map />
-        <Button animated>
+        <Button className="btn" animated>
           <Button.Content visible>What's Hapn'n</Button.Content>
           <Button.Content hidden>
             <Icon name='right arrow' />
