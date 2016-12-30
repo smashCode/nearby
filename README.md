@@ -31,6 +31,9 @@ git clone git@github.com:MichaelZLai/Whats-Hapn_n.git
 **Gold**
 - [ ] Call ride share service through app (Uber/Lyft API)
 
+## Collaborators
+* **Kevin Mahoney**
+* **Michael Lai**
 
 ## Technologies
 ![react](./images/react.png)
