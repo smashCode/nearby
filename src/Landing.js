@@ -3,7 +3,9 @@ import { Button, Icon } from 'semantic-ui-react'
 import Map from './Map'
 
 class Landing extends Component {
+
   render() {
+    console.log("loading landing page")
     return (
       <div>
         <Map />

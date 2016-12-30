@@ -1,15 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+
+body{
   text-align: center;
 }
 
-.btn{
-  font-size: 200px;
+.map{
+  position: relative;
 }
 
-#map{
-  height: 400px;
-  width: 400px;
+.mapboxgl-canvas{
+  position: relative !important;
 }
