@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Button, Icon } from 'semantic-ui-react'
+import Map from './Map'
 
 class Landing extends Component {
   render() {
     return (
       <div>
-        <h1> Hello World </h1>
+        <Map />
         <Button animated>
           <Button.Content visible>What's Hapn'n</Button.Content>
           <Button.Content hidden>

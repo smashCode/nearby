@@ -8,3 +8,8 @@ body {
 .btn{
   font-size: 200px;
 }
+
+#map{
+  height: 400px;
+  width: 400px;
+}
