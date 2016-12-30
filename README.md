@@ -1,6 +1,6 @@
 #Whats-Hapn_n
 
-Ugh Push it. Do do do do do do, do dooo oo dooo Ever bored on a Monday...Tuesday....Wednesday.....or every day? What's Hapn'n can help solve that issue by providing you realtime events around your area!
+Ever bored on a Monday...Tuesday....Wednesday.....or every day? What's Hapn'n can help solve that issue by providing you realtime events around your area!
 
 ###########INSERT SNAPSHOT HERE##############
 
