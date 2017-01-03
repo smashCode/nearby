@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Map from './Map';
 import ButtonContainer from './ButtonContainer';
-import { Router, Route, Link } from 'react-router';
 
 class Landing extends Component {
 
@@ -9,7 +8,10 @@ class Landing extends Component {
     return (
       <div>
         <Map />
-        <ButtonContainer />
+        <ButtonContainer
+          btnName="What's Hapn'n"
+          arrowName="right arrow"
+          pageName="/results"/>
       </div>
     );
   }

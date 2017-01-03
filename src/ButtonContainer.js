@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Icon } from 'semantic-ui-react';
+import { Link } from 'react-router';
 
 class ButtonContainer extends Component {
 
@@ -7,22 +8,15 @@ class ButtonContainer extends Component {
     return (
       <div>
         <Button className="btn" animated>
-          <Button.Content visible>What's Hapn'n</Button.Content>
+          <Link to={this.props.pageName}>
+          <Button.Content visible>{this.props.btnName}</Button.Content>
           <Button.Content hidden>
-            <Icon name='right arrow' />
+            <Icon name={this.props.arrowName} />
           </Button.Content>
+          </Link>
         </Button>
       </div>
 
-      // <Router history={browserHistory}>
-      //   <Route path="/" component={App}>
-      //     <Route path="about" component={About}/>
-      //     <Route path="users" component={Users}>
-      //       <Route path="/user/:userId" component={User}/>
-      //     </Route>
-      //     <Route path="*" component={NoMatch}/>
-      //   </Route>
-      // </Router>
     );
   }
 }
