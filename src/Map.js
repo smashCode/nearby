@@ -1,4 +1,4 @@
-import ReactMapboxGl, { mapboxgl} from "react-mapbox-gl";
+import ReactMapboxGl from "react-mapbox-gl";
 import React, {Component} from 'react';
 import './index.css';
 
@@ -12,18 +12,17 @@ class Map extends Component {
 
   render() {
 
-    console.log("loading map")
+    let style="mapbox://styles/mapbox/streets-v9"
 
     return (
       <ReactMapboxGl
-        style='mapbox://styles/mapbox/streets-v9'
+        style={style}
         accessToken='pk.eyJ1Ijoia2ptYWhvbmV5IiwiYSI6ImNpeGNhZTBqdDAwOXkyemtsMnQ1bmc2dmQifQ.nUVp50Ae4EUgDqvvA_C0gA'
-        className = "map"
-        containerStyle = {containerStyle}>
+        className="map"
+        containerStyle={containerStyle}>
       </ReactMapboxGl>
     );
   }
 }
-
 
 export default Map;
