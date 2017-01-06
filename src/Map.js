@@ -26,9 +26,9 @@ class Map extends Component {
         containerStyle={containerStyle}>
 
         <Marker
-        coordinates={[-77.0369, 38.9072]}
-        anchor="bottom">
-        <img src={markerUrl}/>
+          coordinates={[-77.0369, 38.9072]}
+          anchor="bottom">
+          <img src={markerUrl}/>
         </Marker>
 
       </ReactMapboxGl>
