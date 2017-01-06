@@ -26,6 +26,7 @@ npm install
 - [ ] Address location on directions page will redirect to a bigger map
 
 **Silver**
+- [ ] Geocoding address functionality
 - [ ] Predict public transportation times (WMATA API)
 - [ ] Sort by Title, Distance, Cost, Venue, and Time on results page
 
