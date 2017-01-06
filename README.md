@@ -15,7 +15,7 @@ npm install
 ## User Stories
 
 **MVP**
-- [ ] Able to geolocate your position (Mapbox API)
+- [ ] Geocode location address based on user input
 - [ ] Render realtime events for that day (Eventful API)
 - [ ] Ability to select from events list
 - [ ] After selecting, render map directions from geolocation to event
@@ -26,12 +26,14 @@ npm install
 - [ ] Address location on directions page will redirect to a bigger map
 
 **Silver**
-- [ ] Geocoding address functionality
-- [ ] Predict public transportation times (WMATA API)
+- [ ] Determine user location via pin drop and drag functionality(Mapbox API)
+- [ ] Starting location determined via current location
 - [ ] Sort by Title, Distance, Cost, Venue, and Time on results page
 
 **Gold**
 - [ ] Call ride share service through app (Uber/Lyft API)
+- [ ] Predict public transportation times (WMATA API)
+
 
 ## Collaborators
 * **Kevin Mahoney**

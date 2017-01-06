@@ -16,9 +16,6 @@ class Map extends Component {
 
     let markerUrl = "https://cdn2.iconfinder.com/data/icons/snipicons/500/map-marker-128.png"
 
-
-
-
     return (
       <ReactMapboxGl
         style={style}
