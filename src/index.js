@@ -6,7 +6,6 @@ import './index.css';
 import { Router, Route, hashHistory } from 'react-router';
 
 ReactDOM.render(
-  // <Landing />,
   <Router history={hashHistory}>
     <Route path="/" component={Landing}></Route>
     <Route path="/results" component={Results}></Route>
