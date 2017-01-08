@@ -3,7 +3,6 @@ body{
   text-align: center;
   background-image: url("../images/landing.jpg");
   background-position: center;
-  opacity: 80%;
 }
 
 .mapboxgl-canvas{
