@@ -20,7 +20,7 @@ class Map extends Component {
       <ReactMapboxGl
         style={style}
         accessToken='pk.eyJ1Ijoia2ptYWhvbmV5IiwiYSI6ImNpeGNhZTBqdDAwOXkyemtsMnQ1bmc2dmQifQ.nUVp50Ae4EUgDqvvA_C0gA'
-        center= {[-77.0369, 38.9072]}
+        center={[-77.0369, 38.9072]}
         className="map"
         id="map-editor"
         containerStyle={containerStyle}>
@@ -28,7 +28,7 @@ class Map extends Component {
         <Marker
           coordinates={[-77.0369, 38.9072]}
           anchor="bottom">
-          <img src={markerUrl}/>
+          <img role="presentation" src={markerUrl}/>
         </Marker>
 
       </ReactMapboxGl>

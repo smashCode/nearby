@@ -6,7 +6,7 @@ class Results extends Component {
 
   render() {
     return (
-      <div>
+      <div className="results">
         <h1>Hello World!</h1>
         <ButtonContainer
           btnName="Nahhhhhhhh son"

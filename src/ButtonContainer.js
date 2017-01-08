@@ -6,7 +6,7 @@ class ButtonContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="btnContainer">
         <Button className="btn" animated>
           <Link to={this.props.pageName}>
           <Button.Content visible>{this.props.btnName}</Button.Content>
