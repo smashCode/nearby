@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import './index.css';
 import ButtonContainer from './ButtonContainer';
+import EventListContainer from './EventListContainer';
+
 
 class Results extends Component {
 
   render() {
     return (
-      <div className="results">
-        <h1>Hello World!</h1>
+      <div className="container">
+        <EventListContainer />
         <ButtonContainer
           btnName="Nahhhhhhhh son"
           arrowName="left arrow"
