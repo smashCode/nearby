@@ -6,7 +6,7 @@ class Landing extends Component {
 
   render() {
     return (
-      <div className="landing">
+      <div className="container">
         <Map />
         <ButtonContainer
           btnName="What's Hapn'n"

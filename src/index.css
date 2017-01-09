@@ -1,3 +1,6 @@
+/*
+* === GENERAL ===
+*/
 
 body{
   text-align: center;
@@ -5,16 +8,16 @@ body{
   background-position: center;
 }
 
-.mapboxgl-canvas{
-  position: relative !important;
-}
-
-.landing{
+.container{
   margin-top: 30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.mapboxgl-canvas{
+  position: relative !important;
 }
 
 .btn{
@@ -26,3 +29,15 @@ body{
 .btnContainer{
   margin-top: 30px;
 }
+
+/*
+* === LANDING ===
+*/
+
+/*
+* === RESULTS ===
+*/
+
+/*
+* === EVENT SHOW ===
+*/
