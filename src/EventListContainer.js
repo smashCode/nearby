@@ -13,7 +13,8 @@ class EventListContainer extends Component {
     console.log("hello" + this.state.distance+this.state.lat)
   }
 
-  axios.get('http://api.eventful.com/json/events/search?app_key=VPTzzTTkgzH5nxJZ&where='+this.state.lat+','+this.state.long+'&within='+this.state.distance)
+makeAPICall(lat, long, distance){
+  return Axios.get(`http://api.eventful.com/json/events/search?app_key=VPTzzTTkgzH5nxJZ&where=${lat},${long}&within=${distance}`)
   .then(function (response) {
     console.log(response);
   })
@@ -21,7 +22,10 @@ class EventListContainer extends Component {
     console.log(error);
   });
 
+}
+
   render() {
+    this.makeAPICall(38.9072, -77.0369, 5)
     console.log("after render")
     return (
       <div className="container">
