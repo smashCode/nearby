@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
-import Axios from 'axios';
+import axios from 'axios';
 
 class EventListContainer extends Component {
   constructor(props) {
@@ -9,7 +9,7 @@ class EventListContainer extends Component {
   }
 
   componentDidMount() {
-    Axios.get(`http://api.eventful.com/json/events/search?app_key=VPTzzTTkgzH5nxJZ&where=38.9072,-77.0369&within=5`)
+    axios.get(`http://api.eventful.com/json/events/search?app_key=VPTzzTTkgzH5nxJZ&where=38.9072,-77.0369&within=5`)
         .then(result=> {
             this.setState({items:result.json()});
         });
